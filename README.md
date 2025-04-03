@@ -120,5 +120,5 @@ This lab continues to evolve as I test new tools, implement better security prac
 
 ## 🖼️ Screenshots
 
-> _Coming soon — stay tuned for dashboards, Nextcloud interface, and network overview._
+> _Coming soon — stay tuned for dashboards, Nextcloud interface, and more!_
 
