@@ -15,8 +15,7 @@ This lab continues to evolve as I test new tools, implement better security prac
 - [Service Breakdown](#service-breakdown)
 - [Security & Access](#security--access)
 - [Future Plans](#future-plans)
-- [Screenshots (Optional)](#screenshots-optional)
-- [Contact](#contact)
+- [Screenshots](#screenshots-optional)
 
 ---
 
@@ -131,15 +130,7 @@ Fedora 41 Server
 
 ---
 
-## 🖼️ Screenshots (Optional)
+## 🖼️ Screenshots
 
 > _Coming soon — stay tuned for dashboards, Nextcloud interface, and network overview._
 
----
-
-## 📬 Contact
-
-Feel free to reach out with feedback or questions!
-
-**Gia Dat Doan**  
-[LinkedIn](https://linkedin.com/in/giaddoan) | [GitHub](https://github.com/GiaDDoan) | giaddoan@gmail.com
