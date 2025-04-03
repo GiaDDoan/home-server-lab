@@ -31,7 +31,7 @@ This lab continues to evolve as I test new tools, implement better security prac
 
 ## 🌐 Architecture Overview
 
-![Image](https://github.com/user-attachments/assets/ce1ee4dd-c212-4fbb-9700-244b2b5e26f9)
+![Image](https://github.com/user-attachments/assets/d3b61a6c-f85c-4118-864a-dd05186b3d88)
 
 ---
 
