@@ -34,12 +34,14 @@ This lab continues to evolve as I test new tools, implement better security prac
 
 Remote Client  
   │  
-[Tailscale VPN]  
+[VPN]  
   │  
 Fedora 41 Server  
 ├── Docker + Portainer  
 ├── Nginx Proxy Manager  
 ├── Nextcloud  
+├── Bitwarden  
+├── Pi-hole  
 └── Other Containers  
   │  
 [Cloudflare DNS]
@@ -54,17 +56,21 @@ Fedora 41 Server
 | Virtualization     | Docker + Portainer                        |
 | Reverse Proxy      | Nginx Proxy Manager                       |
 | Cloud Storage      | Nextcloud                                 |
-| Remote Access      | Tailscale VPN                             |
+| Password Manager   | Bitwarden                                 |
+| Network Filtering  | Pi-hole                                   |
+| Remote Access      | VPN                                       |
 | DNS & Security     | Cloudflare (DNS, ACLs, SSL)              |
 
 ---
 
 ## 🚀 Key Features
 
-- **Secure Remote Access** with [Tailscale](https://tailscale.com/)
+- **Secure Remote Access** with a private VPN
 - **Containerized Deployment** using Docker + Portainer
 - **Dynamic DNS + SSL Management** with Nginx Proxy Manager
 - **Self-Hosted Cloud** via Nextcloud (files, calendar, contacts)
+- **Password Manager** with Bitwarden
+- **Ad/Tracker Blocking** via Pi-hole
 - **Public Access Control** with Cloudflare DNS & firewall
 - **Expandable**: easily add new services to the stack
 
@@ -72,8 +78,8 @@ Fedora 41 Server
 
 ## 📦 Service Breakdown
 
-### 🔐 VPN – Tailscale
-- Mesh VPN for secure remote access to the server and services
+### 🔐 VPN
+- Private VPN for secure remote access to the server and services
 - Allows access without exposing ports to the open internet
 
 ### 🐳 Docker & Portainer
@@ -90,6 +96,14 @@ Fedora 41 Server
 - Web and mobile access
 - Shared calendars, contacts, and apps
 
+### 🔐 Bitwarden
+- Self-hosted password manager for secure credential storage
+- Web access and integration with browser/mobile apps
+
+### 🛑 Pi-hole
+- DNS-based ad and tracker blocker for the home network
+- Enhances privacy and network performance
+
 ### ☁️ Cloudflare
 - Public DNS management
 - Firewall rules and access control lists (ACLs)
@@ -99,7 +113,7 @@ Fedora 41 Server
 
 ## 🛡️ Security & Access
 
-- **VPN Tunnel**: All remote access is routed through Tailscale
+- **VPN Tunnel**: All remote access is routed through a secure VPN
 - **Reverse Proxy Rules**: Nginx enforces domain and SSL policies
 - **Cloudflare ACLs**: Limits access to specific IPs / regions
 - **Automatic SSL**: via Let's Encrypt for all services
