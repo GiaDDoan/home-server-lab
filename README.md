@@ -31,19 +31,7 @@ This lab continues to evolve as I test new tools, implement better security prac
 
 ## 🌐 Architecture Overview
 
-Remote Client  
-  │  
-[VPN]  
-  │  
-Fedora 41 Server  
-├── Docker + Portainer  
-├── Nginx Proxy Manager  
-├── Nextcloud  
-├── Bitwarden  
-├── Pi-hole  
-└── Other Containers  
-  │  
-[Cloudflare DNS]
+![Image](https://github.com/user-attachments/assets/ce1ee4dd-c212-4fbb-9700-244b2b5e26f9)
 
 ---
 
